@@ -13,7 +13,6 @@ test("min heap", function () {
     heap.insert(1);
     heap.insert(8);
     heap.insert(7);
-
     expect(heap.length).toEqual(8);
     expect(heap.delete()).toEqual(1);
     expect(heap.delete()).toEqual(3);
